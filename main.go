@@ -35,7 +35,7 @@ func main() {
 
 	fmt.Println("... Connected to Database")
 
-	dbQuery := "select username from nettv_auto_bonus where username='harshu2066_fbnpa'"
+	dbQuery := "select * from table"
 	rows, err := db.Query(dbQuery)
 
 	if err != nil {
